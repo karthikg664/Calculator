@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    background-color: rgb(229, 230, 229);
+}
+
+#container {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    background-color: white;
+}
+
+#display {
+    border: 2px solid rgb(0, 0, 0);
+    width: 190px;
+    border-radius: 12px;
+    background-color: #e5e7ee;
+    text-align: right;
+    font-size: 2rem;
+    padding: 1rem;
+    overflow-x: auto;
+
+}
+
+#keypad {
+    border-radius: 12px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+
+.rows {
+    display: flex;
+    gap: 6px;
+}
+
+.d-btns,
+.o-btns,
+.f-btns {
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    border-radius: 12px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    background-color: rgb(229, 230, 229);
+    text-align: center;
+}
+
+.o-btns,
+.f-btns {
+    background-color: orange;
+}
+
+#remove,
+#equal {
+    width: 107px;
+}
